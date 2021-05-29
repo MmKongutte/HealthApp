@@ -1,0 +1,42 @@
+
+.body{
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.b{
+
+    font-size: 20px;                      
+
+}
+.rowCard {
+    object-fit: contain;
+    
+    transition: transform 450 ms;
+  }
+  
+  .rowCard:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  .content{
+      color:#008cec;
+
+  }
+  .label{
+      color:gray;
+      font-style: oblique;
+      font-weight: bold;
+  }
+
+.galleryBody{
+    padding-top: 30px;
+}
+.tog{
+    width: 300px;
+}
+.togtext{
+    text-align: right;
+    align-items: right;
+}
+  

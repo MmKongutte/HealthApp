@@ -1,0 +1,4 @@
+{
+  "mongoURI": "your mongoDb URI",
+  "jwtSecret": "your key"
+}

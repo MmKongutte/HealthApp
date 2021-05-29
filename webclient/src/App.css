@@ -1,0 +1,82 @@
+.App {
+  display: flex;
+  flex-direction: row;
+
+  margin: 0 auto;
+}
+
+.switchscreen{
+  margin-top: 50px;
+}
+
+.sidebar {
+  flex: 0 0 250px;
+}
+
+.sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+.inactive {
+  color: #fff;
+}
+
+.nav-item:hover {
+  color: #7386d5;
+  background: white;
+}
+
+.fixed {
+  position: fixed;
+  width: 250px;
+  height: 800px;
+  background: linear-gradient(to bottom,#008cec 0%, #16b7cf 80%);
+ 
+}
+
+.main-content {
+  flex: 1 1 0;
+
+}
+
+.side-menu {
+  overflow-y: scroll;
+}
+
+.side-menu::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+
+/*----------- Dashboard css------------ */
+
+.dashCards{
+  background-color:whitesmoke;
+}
+.nocontent{
+  color: #008cec;
+}
+.lbcontent{
+  color: gray;
+}
+.cardsbody{
+ 
+  padding: 2%;
+}
+.analytics{
+  display: flex;
+  flex-direction: row;
+}
+.horizantalbar{
+ 
+  flex:6;
+}
+.piebar{
+ 
+  flex:4;
+}
+
+
+
